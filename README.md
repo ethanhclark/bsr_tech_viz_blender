@@ -20,7 +20,7 @@ Capabilities: robotic motion data import/export (via CSV).
   <li>On line 32, replace the current file path with the full file path of CSV file to import (see figure below)</li>
   <li>Click "Run Script" button</li>
 </ul>
-<img width="968" alt="import-filepath" src="https://github.com/user-attachments/assets/dab5ab61-4cea-42de-988a-86643b987bb3" />
+<img width="968" alt="import-filepath" src="https://github.com/user-attachments/assets/5c39b42d-c979-4697-bb32-2b2892e5ea32" />
 
 <br>
 Coming soon: IK/FK switching on robotic rig
