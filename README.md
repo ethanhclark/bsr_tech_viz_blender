@@ -1,5 +1,5 @@
-# Blue Sky Robotics - Robotica Animation Pipeline Tools
-Capabilities: robotic motion data import/export (via CSV).
+# Blue Sky Robotics - Robotic Animation Pipeline Tools
+Capabilities: robotic motion data import/export (via CSV)
 
 <img width="608" alt="selection" src="https://github.com/user-attachments/assets/1c51a8fc-f7f0-4e94-a637-55394db7a754" />
 
