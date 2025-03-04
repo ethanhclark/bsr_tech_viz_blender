@@ -1,5 +1,5 @@
 # Blue Sky Robotics - Robotic Animation Pipeline Tools
-Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics. 3D rigs for 6 DOF robotic arm in Blender 4.2 can be found under <strong>3D_Files</strong>. Python scripts for importing/exporting rotation data via CSV can be found under <strong>Scripts</strong>.
+Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics. 3D rigs for 6 DOF robotic arm in Blender 4.2 can be found under <strong>3D_Files</strong>. Python scripts for importing/exporting rotation data via CSV can be found under <strong>scripts</strong>.
 <br>
 
 <img width="608" alt="selection" src="https://github.com/user-attachments/assets/1c51a8fc-f7f0-4e94-a637-55394db7a754" />
