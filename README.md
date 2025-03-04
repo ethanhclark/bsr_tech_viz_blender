@@ -1,7 +1,5 @@
 # Blue Sky Robotics - Robotica Animation Pipeline Tools
 Capabilities: robotic motion data import/export (via CSV).
-<br>
-Coming soon: IK/FK switching on robotic rig
 
 <img width="608" alt="selection" src="https://github.com/user-attachments/assets/1c51a8fc-f7f0-4e94-a637-55394db7a754" />
 
@@ -23,3 +21,6 @@ Coming soon: IK/FK switching on robotic rig
   <li>Click "Run Script" button</li>
 </ul>
 <img width="968" alt="import-filepath" src="https://github.com/user-attachments/assets/dab5ab61-4cea-42de-988a-86643b987bb3" />
+
+<br>
+Coming soon: IK/FK switching on robotic rig
