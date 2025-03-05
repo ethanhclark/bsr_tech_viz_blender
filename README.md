@@ -4,6 +4,12 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 
 <img width="608" alt="selection" src="https://github.com/user-attachments/assets/1c51a8fc-f7f0-4e94-a637-55394db7a754" />
 
+<h1>How to Install + Use Add-on</h1>
+<ul>
+  <li>Download a zip file of this repository</li>
+  <li>In Blender, go to <strong>Edit -> Preferences -> Add-ons -> Install From disk (under down arrow in top right corner) -> select downloaded zip file</strong></li>
+</ul>
+
 <h1>How to Export CSV Data</h1>
 <ul>
   <li>Select all six joint controllers (recommend saving selection using selection sets add-on: https://captainhansode.gumroad.com/l/wqaMJ?layout=profile&recommended_by=library)</li>
