@@ -8,6 +8,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 <ul>
   <li>Download a zip file of this repository</li>
   <li>In Blender, go to <strong>Edit -> Preferences -> Add-ons -> Install From disk (under down arrow in top right corner) -> select downloaded zip file</strong></li>
+  <li>Now, in the Blender viewport, type <strong>N</strong> to pull up the sidebar. You should see a tab entitled <strong>CSV Tools</strong></li>
 </ul>
 
 <h1>How to Export CSV Data (Only Using Script)</h1>
