@@ -10,7 +10,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <li>In Blender, go to <strong>Edit -> Preferences -> Add-ons -> Install From disk (under down arrow in top right corner) -> select downloaded zip file</strong></li>
 </ul>
 
-<h1>How to Export CSV Data</h1>
+<h1>How to Export CSV Data (Only Using Script)</h1>
 <ul>
   <li>Select all six joint controllers (recommend saving selection using selection sets add-on: https://captainhansode.gumroad.com/l/wqaMJ?layout=profile&recommended_by=library)</li>
   <li>Under <strong>Output Properties</strong>, set the export location under the output filepath dialog box (see figure below)</li>
@@ -21,7 +21,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <img width="1217" alt="export-filepath" src="https://github.com/user-attachments/assets/c0746a98-f8eb-46da-83b0-be7b900df142" />
 </ul>
 
-<h1>How to Import CSV Data</h1>
+<h1>How to Import CSV Data (Only Using Script)</h1>
 <ul>
   <li>Open <strong>import-csv.py</strong> in Scripting tab</li>
   <li>On line 32, replace the current file path with the full file path of CSV file to import (see figure below)</li>
