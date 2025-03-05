@@ -1,13 +1,12 @@
 bl_info = {
     "name": "CSV Import/Export Add-on",
-    "blender": (3, 0, 0),
+    "blender": (4, 2, 1),
     "category": "Import-Export",
-    "author": "Your Name",
+    "author": "Ethan Clark",
     "version": (1, 0, 0),
     "description": "Adds CSV import/export functionality to Blender",
     "location": "View3D > Sidebar > CSV Tools",
     "warning": "",
-    "support": "COMMUNITY"
 }
 
 import bpy
