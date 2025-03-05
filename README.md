@@ -6,7 +6,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 
 <h1>How to Export CSV Data</h1>
 <ul>
-  <li>Select all six joint controllers (recommend saving selection using selection sets add-on: https://captainhansode.gumroad.com/l/wqaMJ?layout=profile&recommended_by=library</li>
+  <li>Select all six joint controllers (recommend saving selection using selection sets add-on: https://captainhansode.gumroad.com/l/wqaMJ?layout=profile&recommended_by=library)</li>
   <li>Under <strong>Output Properties</strong>, set the export location under the output filepath dialog box (see figure below)</li>
   <li>Open <strong>export-csv.py</strong> in Scripting tab</li>
   <li>Click <strong>Run Script</strong> button</li>
