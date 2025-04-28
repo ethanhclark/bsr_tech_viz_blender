@@ -33,5 +33,38 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 </ul>
 <img width="968" alt="import-filepath" src="https://github.com/user-attachments/assets/5c39b42d-c979-4697-bb32-2b2892e5ea32" />
 
+<hr>
+
+<h1>Blue Sky Robotics - 3D Files Overview</h1>
+<p>General Overview of 3D files for Blue Sky Robotics visualization pipeline.</p>
 <br>
-Coming soon: IK/FK switching on robotic rig
+<p>In this repo, there are six Blender 4.2.1 Files under <strong>3D_files</strong>:</p>
+
+<ul>
+  <li>arm-ik-fk.blend</li>
+  <li>arm-gripper-core.blend</li>
+  <li>arm-vacuum-core.blend</li>
+  <li>arm-spraybot-core.blend</li>
+  <li>arm-spraybot-inverted-core.blend</li>
+  <li>arm-gripper-chain.blend</li>
+</ul>
+
+<h3>arm-ik-fk.blend</h3>
+<p>In this file, the xARM6 robotic arm with the spraybot end effector is fully set up with an IK/FK rig + switch for general animation.</p>
+<p>To animate the robot in the same way we create profiles with the physical robot in manual mode (IK Rig):</p>
+<ul>
+  <li>Select the square directly below the end effector named <strong>CTRL_IK</strong></li>
+  <li>Under the <strong>Object Properties</strong> window (orange square icon), scroll all the way down to the <strong>Custom Properties</strong> section and locate the <strong>IK_FK_Switch</strong> property</li>
+  <li>Ensure that the property value is set to 0 (<strong>manual mode/IK animation: IK_FK_Switch = 0. Individual joint/FK animation: IK_FK_Switch = 1</strong></li>
+  <li>Once this has been set, click <strong>G</strong> (for grab and move) - you'll be able to manipulate the robotic arm now and can keyframe this object to create animation profiles.</li>
+  <ul>
+    <li>Reminder: to lock movement along a specific world axis, click <strong>G</strong>, then either <strong>X, Y, or Z</strong> to lock movement along that world axis. To lock movement along the object's local axis, click <strong>G</strong>, then either <strong>X, Y, or Z twice</strong> to lock movement along that object's local axis. </li>
+  </ul>
+</ul>
+<p>To animate the robot by moving each individual joint (FK Rig):</p>
+<ul>
+  <li>Select the square directly below the end effector named <strong>CTRL_IK</strong></li>
+  <li>Under the <strong>Object Properties</strong> window (orange square icon), scroll all the way down to the <strong>Custom Properties</strong> section and locate the <strong>IK_FK_Switch</strong> property</li>
+  <li>Ensure that the property value is set to 1 (<strong>manual mode/IK animation: IK_FK_Switch = 0. Individual joint/FK animation: IK_FK_Switch = 1</strong></li>
+  <li>Once this has been set, click <strong>R</strong> (for rotate) - you'll be able to manipulate the robotic arm now and can keyframe <strong>each individual control circle</strong> to create animation profiles.</li>
+</ul>
