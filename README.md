@@ -68,3 +68,8 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <li>Ensure that the property value is set to 1 (<strong>manual mode/IK animation: IK_FK_Switch = 0. Individual joint/FK animation: IK_FK_Switch = 1</strong></li>
   <li>Once this has been set, click <strong>R</strong> (for rotate) - you'll be able to manipulate the robotic arm now and can keyframe <strong>each individual control circle</strong> to create animation profiles.</li>
 </ul>
+
+<p>Video animation demo in this Blender file seen here:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F5-9ONM91Xo?si=KdCHAq1OmlAQvOlh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3>arm-gripper-core.blend</h3>
