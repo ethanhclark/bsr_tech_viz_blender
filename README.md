@@ -136,7 +136,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <li>You can then bring the video into a new sequence, preview the full animation, and export it as a MP4 from Premiere.</li>
 </ol>
 <hr>
-![arm-spraybot-core](https://github.com/user-attachments/assets/252b6ea8-ab52-4203-b592-ef78d3658468)
+<img width="1000" alt="arm-spraybot-core" src="https://github.com/user-attachments/assets/8ff7e00a-83f0-43c0-a1e8-43a5b1b765c0" />
 
 
 <h2>arm-spraybot-core.blend & arm-spraybot-inverted-core.blend</h2>
