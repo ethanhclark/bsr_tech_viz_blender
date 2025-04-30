@@ -157,3 +157,23 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <li>In this file, there are five robotic arms set up in a row for rendering out images that require multiple robotic arms in the composition.</li>
   <li>There is a new collection in this file: <strong>Duplicate Arms</strong>, which contains the four extra robotic arms created for this composition.</li>
 </ul>
+
+<hr>
+<img width="559" alt="path-visualization" src="https://github.com/user-attachments/assets/253fe765-bb06-452e-be43-8f76762c257b" />
+
+<h2>Path Visualization Tool</h2>
+<p>We have used another Blender plug-in to visualize the path of an animation profile in Blender, as pictured above. The link to the GitHub repo for downloading this custom plug-in can be found here: https://github.com/camkania/blender_snapshot_tool</p>
+<p>To use this plug-in for our purposes, follow these steps:</p>
+<ol>
+  <li>Open the Blender file that contains the desired animation profile to visualize</li>
+  <li>Select the end effector on the robot, specifically the object closest to the very end of the robotic arm chain</li>
+  <li>Click (in this order!) <strong>Shift + S + 2</strong></li>
+  <li>Now, on the top bar click <strong>Add</strong> -> <strong>Mesh</strong> -> <strong>UV Sphere</strong></li>
+  <li>Then (in this order!) select the new sphere, then hold shift and select any piece on the robotic arm</li>
+  <li>Click <strong>Command + P</strong>, then select <strong>Object (Keep Transform)</strong>. Now when you play the animation, the sphere should follow the path of the robotic arm.</li>
+  <li>Now, select the sphere again, click <strong>N</strong> to pull up the side bar, and navigate to the <strong>Snapshot</strong> tab.</li>
+  <li>Set the <strong>Start Frame</strong> and <strong>End Frame</strong> to the same range as your animation profile. Make sure the <strong>Frame Interval</strong> is set to <strong>1</strong></li>
+  <li>With the sphere still selected, click the <strong>Run Snapshot Process</strong> button. This might take several moments to run.</li>
+  <li>Once the script runs, click <strong>Combine Snapshots</strong>. You should now see a visualization of the robotic arm path in the 3D viewport, and a new collection entitled <strong>Snapshot_Meshes</strong> with the new object <strong>Combined_Snapshot</strong> inside.</li>
+    
+</ol>
