@@ -139,9 +139,9 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 <img width="1000" alt="arm-spraybot-core" src="https://github.com/user-attachments/assets/8ff7e00a-83f0-43c0-a1e8-43a5b1b765c0" />
 
 
-<h2>arm-spraybot-core.blend & arm-spraybot-inverted-core.blend</h2>
+<h2>arm-spraybot-core.blend + arm-spraybot-inverted-core.blend + arm-gripper-chain</h2>
 
-<p>Everything in these two files should be identical to the notes in the previous section pertaning to arm-gripper-core.blend & arm-vacuum-core.blend. The following bullet points are notes on a few minor differences/additions found in these files.</p>
+<p>Everything in these  files should be identical to the notes in the previous section pertaning to arm-gripper-core.blend & arm-vacuum-core.blend. The following bullet points are notes on a few minor differences/additions found in these files.</p>
 <p><strong>arm-spraybot-core.blend:</strong></p>
 <ul>
   <li>In this file, there is a <strong>Scenic Elements</strong> collection that has four objects in it: <strong>perp-rail</strong>, <strong>rail</strong>, <strong>side-rails</strong>, and <strong>wire-tray</strong>. These items are included for renders of the spraybot in an example environment.</li>
@@ -151,4 +151,9 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
 <ul>
   <li>In this file, there is a <strong>Scenic Elements</strong> collection that has several objects in it. These items are included for renders of the spraybot in an example environment.</li>
   <li>Since this scene has the robot set up on a rail, the movement of the robotic arm is locked so that it can only be moved along the rail. If you wish to disable this constraint, select <strong>CTRL_Move</strong>, and navigate to the <strong>Object Properties</strong> tab. Next to <strong>Location Y and Z</strong>, you can click the lock icons to the right to release the movement constraints along these axes</li>
+</ul>
+<p><strong>arm-gripper-chain:</strong></p>
+<ul>
+  <li>In this file, there are five robotic arms set up in a row for rendering out images that require multiple robotic arms in the composition.</li>
+  <li>There is a new collection in this file: <strong>Duplicate Arms</strong>, which contains the four extra robotic arms created for this composition.</li>
 </ul>
