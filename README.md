@@ -192,5 +192,7 @@ Pipeline tools for UFACTORY xArm6 technical visualizations at Blue Sky Robotics.
   <li><strong>If this is your first time exporting to AVP:</strong> check <strong>Remember Export Settings</strong> to avoid doing this process for future exports.</li>
   <img width="241" alt="avp-export-settings" src="https://github.com/user-attachments/assets/00b7a8bc-4039-426b-a0d1-c5bc53311f82" />
 <li>Once exported, navigate to your Sketchfab account, click <strong>Upload</strong>, and select your <strong>.glb file</strong></li>
-  <li>After the upload processes, you can click <strong>Edit 3D Settings</strong> to view a preview of the model. In this window, you can also navigate to the <strong>Materials</strong> tab (picture frame icon) to modify the material settings for each object to fine tune how it will appear on the AVP.</li>
+  <li>After the upload processes, make sure to select <strong>Free</strong> under the <strong>Download</strong> option.</li>
+  <li>You can click <strong>Edit 3D Settings</strong> to view a preview of the model. In this window, you can also navigate to the <strong>Materials</strong> tab (picture frame icon) to modify the material settings for each object to fine tune how it will appear on the AVP.
+  <li>Once finished, click <strong>Publish</strong>. You can now open your Sketchfab account on the AVP, select the model, download the model, and view it in your augmented space.</li>
 </ol>
